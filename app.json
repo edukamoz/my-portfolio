@@ -23,11 +23,20 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "experiments": {
+      "baseUrl": "/my-portfolio",
+      "typedRoutes": true
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-font"],
+    "scheme": "seu-app",
+    "extra": {
+      "router": {
+        "origin": "https://edukamoz.github.io/my-portfolio/"
+      }
+    }
   }
 }
