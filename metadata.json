@@ -1,0 +1,5 @@
+{
+  "name": "Eduardo Kamo Portfolio",
+  "description": "A highly interactive, WebGL-inspired portfolio for Eduardo Kamo, built with React, Vite, and Framer Motion.",
+  "requestFramePermissions": []
+}

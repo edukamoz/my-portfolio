@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;700;900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Anton", sans-serif;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  cursor: none; /* Hide default cursor for custom cursor */
+}
+
+a,
+button {
+  cursor: none; /* Hide default cursor for custom cursor */
+}
