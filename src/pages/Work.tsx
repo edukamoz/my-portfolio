@@ -15,7 +15,7 @@ export function Work() {
       title: "DelBicos",
       description: t("work.desc2"),
       tech: ["React Native", "TypeScript", "Node", "Docker", "PostgreeSQL"],
-      link: "https://github.com/edukamoz",
+      link: "https://www.delbicos.com.br/",
     },
   ];
 
